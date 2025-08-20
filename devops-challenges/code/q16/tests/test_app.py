@@ -1,5 +1,5 @@
 import unittest
-from app import app
+from devops-challenges.code.q16.app import app
 
 class TestApp(unittest.TestCase):
 

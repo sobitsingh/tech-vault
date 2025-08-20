@@ -12,7 +12,9 @@ jobs:
     - name: Run Tests
       run: |
         cd devops-challenges/code/q16
+        echo "Install dependecies"
         pip install -r requirements.txt
+        echo "Installed dependies"
         python -m unittest tests/test_app.py
 
     - name: Build Docker Image

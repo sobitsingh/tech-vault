@@ -15,7 +15,7 @@ jobs:
         echo "Install dependecies"
         pip install -r requirements.txt
         echo "Installed dependies"
-        python -m unittest tests/test_app.py
+        python -m unittest tests.test_app.py
 
     - name: Build Docker Image
       run: |

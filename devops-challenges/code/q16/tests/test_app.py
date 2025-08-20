@@ -9,4 +9,4 @@ class TestApp(unittest.TestCase):
     def test_index(self):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b'Hello, World!')
+        self.assertEqual(response.data, b'Hello, world!')
